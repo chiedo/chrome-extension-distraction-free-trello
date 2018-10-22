@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Distraction Free Trello",
+  "version": "0.1.0",
+  "description": "Make it easier to focus while working in Trello.",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://trello.com/*"]
+  }]
+
+}
